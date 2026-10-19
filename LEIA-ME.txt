@@ -1,0 +1,20 @@
+TIENDA PLUS — PAGINA DE AGRADECIMENTO
+
+Extraia o ZIP antes de publicar. index.html e assets devem ficar juntos.
+
+OPCAO 1 — GITHUB + VERCEL (pelo navegador)
+1. Crie um repositorio no GitHub.
+2. Use Add file > Upload files e envie index.html, vercel.json e a pasta assets.
+3. Confirme em Commit changes.
+4. Na Vercel, escolha Add New > Project e importe esse repositorio.
+5. Framework Preset: Other. Sem comando de build. Output Directory: .
+6. Clique em Deploy.
+
+OPCAO 2 — PELO COMPUTADOR (com Node.js instalado)
+Abra o terminal dentro da pasta extraida e execute:
+npx vercel --prod
+Autorize sua conta e siga as perguntas para criar um projeto.
+
+Esta pagina e estatica. Nao recebe pedidos e nao esta conectada ao checkout.
+Apos publicar, configure separadamente o redirecionamento pos-compra na sua loja.
+O botao Volver a la tienda aponta para https://tiendaplus.shop/.
